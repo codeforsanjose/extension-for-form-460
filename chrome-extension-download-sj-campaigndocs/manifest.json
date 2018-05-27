@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "CampaignDocsDownloader",
+  "description": "Help download excel files from https://www.southtechhosting.com/SanJoseCity/CampaignDocsWebRetrieval/Search/SearchByFiledForm.aspx",
+  "version": "1",
+  "author": "Tran Tu",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+  },
+  "permissions": [
+    "activeTab",
+    "downloads"
+  ]
+}
